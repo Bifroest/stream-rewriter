@@ -1,0 +1,8 @@
+/target
+.classpath
+.project
+.settings
+/test/logs/
+id_rsa*
+*.swp
+/test/data/
