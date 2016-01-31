@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.netty;
+package io.bifroest.stream_rewriter.netty;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -15,11 +15,11 @@ import org.apache.logging.log4j.Logger;
 import org.json.JSONObject;
 import org.kohsuke.MetaInfServices;
 
-import com.goodgame.profiling.commons.boot.interfaces.Subsystem;
-import com.goodgame.profiling.commons.systems.SystemIdentifiers;
-import com.goodgame.profiling.commons.systems.configuration.EnvironmentWithJSONConfiguration;
-import com.goodgame.profiling.stream_rewriter.StreamRewriterIdentifiers;
-import com.goodgame.profiling.stream_rewriter.db.EnvironmentWithDBInput;
+import io.bifroest.commons.SystemIdentifiers;
+import io.bifroest.commons.boot.interfaces.Subsystem;
+import io.bifroest.commons.configuration.EnvironmentWithJSONConfiguration;
+import io.bifroest.stream_rewriter.StreamRewriterIdentifiers;
+import io.bifroest.stream_rewriter.db.EnvironmentWithDBInput;
 
 @MetaInfServices
 public class NettySystem<E extends EnvironmentWithJSONConfiguration & EnvironmentWithDBInput & EnvironmentWithMutableNettyPortController> implements Subsystem<E>, NettyPortController {

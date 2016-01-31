@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter;
+package io.bifroest.stream_rewriter;
 
 public class StreamRewriterIdentifiers {
     private StreamRewriterIdentifiers() {

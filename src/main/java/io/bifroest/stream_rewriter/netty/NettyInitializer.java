@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.netty;
+package io.bifroest.stream_rewriter.netty;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
@@ -8,7 +8,7 @@ import io.netty.handler.codec.Delimiters;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 
-import com.goodgame.profiling.stream_rewriter.db.EnvironmentWithDBInput;
+import io.bifroest.stream_rewriter.db.EnvironmentWithDBInput;
 
 public class NettyInitializer<E extends EnvironmentWithDBInput> extends ChannelInitializer<SocketChannel> {
 

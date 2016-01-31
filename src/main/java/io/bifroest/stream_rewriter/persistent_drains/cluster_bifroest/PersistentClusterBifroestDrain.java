@@ -1,13 +1,11 @@
-package com.goodgame.profiling.stream_rewriter.persistent_drains.cluster_bifroest;
+package io.bifroest.stream_rewriter.persistent_drains.cluster_bifroest;
 
 import java.io.IOException;
 import java.util.Collection;
 
-import com.goodgame.profiling.bifroest.bifroest_client.BifroestClient;
-import com.goodgame.profiling.commons.model.Metric;
-import com.goodgame.profiling.stream_rewriter.persistent_drains.PersistentDrain;
-
-
+import io.bifroest.bifroest_client.BifroestClient;
+import io.bifroest.commons.model.Metric;
+import io.bifroest.stream_rewriter.persistent_drains.PersistentDrain;
 
 public final class PersistentClusterBifroestDrain implements PersistentDrain {
 

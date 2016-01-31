@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.db;
+package io.bifroest.stream_rewriter.db;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -16,20 +16,20 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.kohsuke.MetaInfServices;
 
-import com.goodgame.profiling.commons.boot.interfaces.Subsystem;
-import com.goodgame.profiling.commons.model.Metric;
-import com.goodgame.profiling.commons.statistics.WriteToStorageEvent;
-import com.goodgame.profiling.commons.statistics.eventbus.EventBusManager;
-import com.goodgame.profiling.commons.statistics.storage.MetricStorage;
-import com.goodgame.profiling.commons.statistics.units.parse.DurationParser;
-import com.goodgame.profiling.commons.systems.SystemIdentifiers;
-import com.goodgame.profiling.dns.EndPoint;
-import com.goodgame.profiling.drains.Drain;
-import com.goodgame.profiling.drains.serial.failfirst.SerialFailFirstDrain;
-import com.goodgame.profiling.stream_rewriter.StreamRewriterIdentifiers;
-import com.goodgame.profiling.stream_rewriter.persistent_drains.EnvironmentWithPersistentDrainManager;
-import com.goodgame.profiling.stream_rewriter.persistent_drains.PersistentDrainFrontend;
-import com.goodgame.profiling.stream_rewriter.watermark.EnvironmentWithMutableCompositeWaterMark;
+import io.bifroest.commons.boot.interfaces.Subsystem;
+import io.bifroest.commons.model.Metric;
+import io.bifroest.commons.statistics.WriteToStorageEvent;
+import io.bifroest.commons.statistics.eventbus.EventBusManager;
+import io.bifroest.commons.statistics.storage.MetricStorage;
+import io.bifroest.commons.statistics.units.parse.DurationParser;
+import io.bifroest.commons.SystemIdentifiers;
+import io.bifroest.dns.EndPoint;
+import io.bifroest.drains.Drain;
+import io.bifroest.drains.serial.failfirst.SerialFailFirstDrain;
+import io.bifroest.stream_rewriter.StreamRewriterIdentifiers;
+import io.bifroest.stream_rewriter.persistent_drains.EnvironmentWithPersistentDrainManager;
+import io.bifroest.stream_rewriter.persistent_drains.PersistentDrainFrontend;
+import io.bifroest.stream_rewriter.watermark.EnvironmentWithMutableCompositeWaterMark;
 
 /**
  *

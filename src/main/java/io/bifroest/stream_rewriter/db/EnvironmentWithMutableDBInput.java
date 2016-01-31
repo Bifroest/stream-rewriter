@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.goodgame.profiling.stream_rewriter.db;
+package io.bifroest.stream_rewriter.db;
 
-import com.goodgame.profiling.commons.model.Metric;
+import io.bifroest.commons.model.Metric;
 import java.util.concurrent.BlockingQueue;
 
 /**

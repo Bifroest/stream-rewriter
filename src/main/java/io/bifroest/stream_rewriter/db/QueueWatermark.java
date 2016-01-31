@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.goodgame.profiling.stream_rewriter.db;
+package io.bifroest.stream_rewriter.db;
 
-import com.goodgame.profiling.stream_rewriter.watermark.Watermark;
+import io.bifroest.stream_rewriter.watermark.Watermark;
 
 import java.util.concurrent.BlockingQueue;
 

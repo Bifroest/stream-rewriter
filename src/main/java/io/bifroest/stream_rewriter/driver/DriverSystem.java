@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.driver;
+package io.bifroest.stream_rewriter.driver;
 
 import java.time.Duration;
 import java.util.Arrays;
@@ -9,13 +9,13 @@ import org.apache.logging.log4j.Logger;
 import org.json.JSONObject;
 import org.kohsuke.MetaInfServices;
 
-import com.goodgame.profiling.commons.boot.interfaces.Subsystem;
-import com.goodgame.profiling.commons.statistics.units.parse.DurationParser;
-import com.goodgame.profiling.commons.systems.cron.TaskRunner;
-import com.goodgame.profiling.commons.systems.cron.TaskRunner.TaskID;
-import com.goodgame.profiling.stream_rewriter.StreamRewriterIdentifiers;
-import com.goodgame.profiling.stream_rewriter.netty.EnvironmentWithNettyPortController;
-import com.goodgame.profiling.stream_rewriter.watermark.EnvironmentWithWatermark;
+import io.bifroest.commons.boot.interfaces.Subsystem;
+import io.bifroest.commons.cron.TaskRunner;
+import io.bifroest.commons.cron.TaskRunner.TaskID;
+import io.bifroest.commons.statistics.units.parse.DurationParser;
+import io.bifroest.stream_rewriter.StreamRewriterIdentifiers;
+import io.bifroest.stream_rewriter.netty.EnvironmentWithNettyPortController;
+import io.bifroest.stream_rewriter.watermark.EnvironmentWithWatermark;
 
 @MetaInfServices
 public class DriverSystem<E extends EnvironmentWithNettyPortController & EnvironmentWithWatermark> implements Subsystem<E> {

@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.persistent_drains.bifroest;
+package io.bifroest.stream_rewriter.persistent_drains.bifroest;
 
 import java.util.Collections;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.List;
 import org.json.JSONObject;
 import org.kohsuke.MetaInfServices;
 
-import com.goodgame.profiling.commons.boot.interfaces.Environment;
-import com.goodgame.profiling.stream_rewriter.persistent_drains.PersistentDrainFactory;
+import io.bifroest.commons.boot.interfaces.Environment;
+import io.bifroest.stream_rewriter.persistent_drains.PersistentDrainFactory;
 
 @MetaInfServices
 public class PersistentBifroestDrainFactory<E extends Environment> implements PersistentDrainFactory<E, PersistentBifroestDrain> {

@@ -1,9 +1,9 @@
-package com.goodgame.profiling.stream_rewriter.persistent_drains;
+package io.bifroest.stream_rewriter.persistent_drains;
 
 import java.io.IOException;
 import java.util.Collection;
 
-import com.goodgame.profiling.commons.model.Metric;
+import io.bifroest.commons.model.Metric;
 
 public interface PersistentDrain {
 

@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.source.handler;
+package io.bifroest.stream_rewriter.source.handler;
 
 import java.io.IOException;
 import java.time.Clock;
@@ -7,9 +7,10 @@ import java.util.Arrays;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 
-import com.goodgame.profiling.commons.logging.LogService;
-import com.goodgame.profiling.commons.model.Metric;
-import com.goodgame.profiling.drains.Drain;
+import io.bifroest.commons.logging.LogService;
+import io.bifroest.commons.model.Metric;
+
+import io.bifroest.drains.Drain;
 
 public class StreamLineHandler {
     private static final Logger log = LogService.getLogger(StreamLineHandler.class);

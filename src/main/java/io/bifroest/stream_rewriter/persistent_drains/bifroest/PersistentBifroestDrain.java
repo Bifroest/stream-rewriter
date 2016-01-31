@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.persistent_drains.bifroest;
+package io.bifroest.stream_rewriter.persistent_drains.bifroest;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -16,11 +16,11 @@ import java.util.concurrent.atomic.AtomicLong;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.goodgame.profiling.commons.model.Metric;
-import com.goodgame.profiling.commons.statistics.WriteToStorageEvent;
-import com.goodgame.profiling.commons.statistics.eventbus.EventBusManager;
-import com.goodgame.profiling.commons.statistics.storage.MetricStorage;
-import com.goodgame.profiling.stream_rewriter.persistent_drains.PersistentDrain;
+import io.bifroest.commons.model.Metric;
+import io.bifroest.commons.statistics.WriteToStorageEvent;
+import io.bifroest.commons.statistics.eventbus.EventBusManager;
+import io.bifroest.commons.statistics.storage.MetricStorage;
+import io.bifroest.stream_rewriter.persistent_drains.PersistentDrain;
 
 /**
  * A special carbon plain text drain. It differs from the normal CarbonPlainTextDrain in the following ways:

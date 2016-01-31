@@ -1,6 +1,6 @@
-package com.goodgame.profiling.stream_rewriter.netty;
+package io.bifroest.stream_rewriter.netty;
 
-import com.goodgame.profiling.commons.boot.interfaces.Environment;
+import io.bifroest.commons.boot.interfaces.Environment;
 
 public interface EnvironmentWithNettyPortController extends Environment {
     NettyPortController nettyPortController();

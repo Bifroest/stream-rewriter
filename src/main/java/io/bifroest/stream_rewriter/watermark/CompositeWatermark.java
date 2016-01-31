@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.goodgame.profiling.stream_rewriter.watermark;
+package io.bifroest.stream_rewriter.watermark;
 
 import java.util.ArrayList;
 import java.util.List;

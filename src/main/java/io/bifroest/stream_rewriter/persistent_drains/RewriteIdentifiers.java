@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.persistent_drains;
+package io.bifroest.stream_rewriter.persistent_drains;
 
 
 public class RewriteIdentifiers {

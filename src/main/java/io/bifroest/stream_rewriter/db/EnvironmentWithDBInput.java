@@ -1,9 +1,9 @@
-package com.goodgame.profiling.stream_rewriter.db;
+package io.bifroest.stream_rewriter.db;
 
 import java.util.concurrent.BlockingQueue;
 
-import com.goodgame.profiling.commons.boot.interfaces.Environment;
-import com.goodgame.profiling.commons.model.Metric;
+import io.bifroest.commons.boot.interfaces.Environment;
+import io.bifroest.commons.model.Metric;
 
 /**
  *

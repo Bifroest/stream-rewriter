@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.netty;
+package io.bifroest.stream_rewriter.netty;
 
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;
@@ -11,12 +11,12 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.MDC;
 
-import com.goodgame.profiling.commons.logging.LogService;
-import com.goodgame.profiling.commons.model.Metric;
-import com.goodgame.profiling.commons.statistics.WriteToStorageEvent;
-import com.goodgame.profiling.commons.statistics.eventbus.EventBusManager;
-import com.goodgame.profiling.commons.statistics.storage.MetricStorage;
-import com.goodgame.profiling.stream_rewriter.db.EnvironmentWithDBInput;
+import io.bifroest.commons.logging.LogService;
+import io.bifroest.commons.model.Metric;
+import io.bifroest.commons.statistics.WriteToStorageEvent;
+import io.bifroest.commons.statistics.eventbus.EventBusManager;
+import io.bifroest.commons.statistics.storage.MetricStorage;
+import io.bifroest.stream_rewriter.db.EnvironmentWithDBInput;
 
 @Sharable
 public class NettyHandler<E extends EnvironmentWithDBInput> extends SimpleChannelInboundHandler<String> {

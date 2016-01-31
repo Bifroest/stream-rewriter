@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.persistent_drains.cassandra;
+package io.bifroest.stream_rewriter.persistent_drains.cassandra;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,9 +6,9 @@ import java.util.List;
 import org.json.JSONObject;
 import org.kohsuke.MetaInfServices;
 
-import com.goodgame.profiling.commons.util.json.JSONUtils;
-import com.goodgame.profiling.graphite_retentions.bootloader.EnvironmentWithRetentionStrategy;
-import com.goodgame.profiling.stream_rewriter.persistent_drains.PersistentDrainFactory;
+import io.bifroest.commons.util.json.JSONUtils;
+import io.bifroest.retentions.bootloader.EnvironmentWithRetentionStrategy;
+import io.bifroest.stream_rewriter.persistent_drains.PersistentDrainFactory;
 
 @MetaInfServices
 public class PersistentCassandraDrainFactory<E extends EnvironmentWithRetentionStrategy> implements

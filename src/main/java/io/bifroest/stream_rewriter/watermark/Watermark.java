@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.watermark;
+package io.bifroest.stream_rewriter.watermark;
 
 /**
  *

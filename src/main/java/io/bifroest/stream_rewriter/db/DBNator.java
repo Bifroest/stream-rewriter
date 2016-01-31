@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.db;
+package io.bifroest.stream_rewriter.db;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -14,8 +14,9 @@ import org.apache.logging.log4j.Logger;
 
 import com.datastax.driver.core.exceptions.DriverException;
 import com.datastax.driver.core.exceptions.WriteTimeoutException;
-import com.goodgame.profiling.commons.model.Metric;
-import com.goodgame.profiling.drains.Drain;
+
+import io.bifroest.commons.model.Metric;
+import io.bifroest.drains.Drain;
 
 /**
  *

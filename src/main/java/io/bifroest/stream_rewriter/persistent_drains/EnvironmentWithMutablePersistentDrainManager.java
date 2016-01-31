@@ -1,6 +1,6 @@
-package com.goodgame.profiling.stream_rewriter.persistent_drains;
+package io.bifroest.stream_rewriter.persistent_drains;
 
-import com.goodgame.profiling.commons.boot.interfaces.Environment;
+import io.bifroest.commons.boot.interfaces.Environment;
 
 
 public interface EnvironmentWithMutablePersistentDrainManager extends

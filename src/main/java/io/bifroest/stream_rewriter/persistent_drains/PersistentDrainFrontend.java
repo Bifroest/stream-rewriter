@@ -1,11 +1,11 @@
-package com.goodgame.profiling.stream_rewriter.persistent_drains;
+package io.bifroest.stream_rewriter.persistent_drains;
 
 import java.io.IOException;
 import java.util.List;
 
-import com.goodgame.profiling.commons.model.Metric;
-import com.goodgame.profiling.commons.util.panic.ProfilingPanic;
-import com.goodgame.profiling.drains.AbstractBasicDrain;
+import io.bifroest.commons.model.Metric;
+import io.bifroest.commons.util.panic.ProfilingPanic;
+import io.bifroest.drains.AbstractBasicDrain;
 
 public class PersistentDrainFrontend extends AbstractBasicDrain {
 

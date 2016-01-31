@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.persistent_drains;
+package io.bifroest.stream_rewriter.persistent_drains;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,8 +7,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.JSONObject;
 
-import com.goodgame.profiling.commons.systems.configuration.EnvironmentWithJSONConfiguration;
-import com.goodgame.profiling.stream_rewriter.persistent_drains.empty.PersistentVoidDrain;
+import io.bifroest.commons.configuration.EnvironmentWithJSONConfiguration;
+import io.bifroest.stream_rewriter.persistent_drains.empty.PersistentVoidDrain;
 
 public class PersistentDrainManager<E extends EnvironmentWithJSONConfiguration> {
     private static final Logger log = LogManager.getLogger();

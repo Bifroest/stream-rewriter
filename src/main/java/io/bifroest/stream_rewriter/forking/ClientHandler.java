@@ -3,16 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.goodgame.profiling.stream_rewriter.forking;
+package io.bifroest.stream_rewriter.forking;
 
-import com.goodgame.profiling.drains.Drain;
-import com.goodgame.profiling.stream_rewriter.source.handler.StreamLineHandler;
+
+import io.bifroest.stream_rewriter.source.handler.StreamLineHandler;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.Socket;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import io.bifroest.drains.Drain;
 
 /**
  *

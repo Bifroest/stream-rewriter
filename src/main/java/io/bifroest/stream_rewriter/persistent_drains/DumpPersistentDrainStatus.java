@@ -1,9 +1,9 @@
-package com.goodgame.profiling.stream_rewriter.persistent_drains;
+package io.bifroest.stream_rewriter.persistent_drains;
 
 import java.time.Duration;
 import java.time.Instant;
 
-import com.goodgame.profiling.commons.util.panic.PanicAction;
+import io.bifroest.commons.util.panic.PanicAction;
 
 public class DumpPersistentDrainStatus<E extends EnvironmentWithPersistentDrainManager> implements PanicAction {
     private E env;

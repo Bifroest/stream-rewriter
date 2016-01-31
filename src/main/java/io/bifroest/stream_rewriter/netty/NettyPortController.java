@@ -1,5 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.netty;
-
+package io.bifroest.stream_rewriter.netty;
 
 public interface NettyPortController {
     public void openNettyPort() throws InterruptedException;

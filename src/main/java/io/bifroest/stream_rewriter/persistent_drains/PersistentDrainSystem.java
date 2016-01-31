@@ -1,4 +1,4 @@
-package com.goodgame.profiling.stream_rewriter.persistent_drains;
+package io.bifroest.stream_rewriter.persistent_drains;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,11 +12,11 @@ import org.apache.logging.log4j.Logger;
 import org.json.JSONObject;
 import org.kohsuke.MetaInfServices;
 
-import com.goodgame.profiling.commons.boot.interfaces.Subsystem;
-import com.goodgame.profiling.commons.systems.SystemIdentifiers;
-import com.goodgame.profiling.commons.systems.configuration.EnvironmentWithJSONConfiguration;
-import com.goodgame.profiling.commons.util.panic.ProfilingPanic;
-import com.goodgame.profiling.stream_rewriter.StreamRewriterIdentifiers;
+import io.bifroest.commons.SystemIdentifiers;
+import io.bifroest.commons.boot.interfaces.Subsystem;
+import io.bifroest.commons.configuration.EnvironmentWithJSONConfiguration;
+import io.bifroest.commons.util.panic.ProfilingPanic;
+import io.bifroest.stream_rewriter.StreamRewriterIdentifiers;
 
 @MetaInfServices
 public class PersistentDrainSystem<E extends EnvironmentWithMutablePersistentDrainManager & EnvironmentWithJSONConfiguration> implements Subsystem<E> {

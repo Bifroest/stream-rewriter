@@ -37,7 +37,7 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-package com.goodgame.profiling.stream_rewriter.netty;
+package io.bifroest.stream_rewriter.netty;
 
 import io.netty.util.internal.logging.AbstractInternalLogger;
 

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.goodgame.profiling.stream_rewriter.forking;
+package io.bifroest.stream_rewriter.forking;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -11,10 +11,10 @@ import java.util.Collection;
 import org.apache.logging.log4j.LogManager;
 import org.json.JSONObject;
 
-import com.goodgame.profiling.commons.boot.interfaces.Subsystem;
-import com.goodgame.profiling.commons.systems.SystemIdentifiers;
-import com.goodgame.profiling.commons.systems.configuration.EnvironmentWithJSONConfiguration;
-import com.goodgame.profiling.stream_rewriter.StreamRewriterIdentifiers;
+import io.bifroest.commons.SystemIdentifiers;
+import io.bifroest.commons.boot.interfaces.Subsystem;
+import io.bifroest.commons.configuration.EnvironmentWithJSONConfiguration;
+import io.bifroest.stream_rewriter.StreamRewriterIdentifiers;
 
 /**
  *
